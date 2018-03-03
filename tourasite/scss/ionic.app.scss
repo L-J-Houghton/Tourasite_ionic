@@ -1,0 +1,64 @@
+$balanced: #00B38A;
+$light: #ffffff;
+$link-color: $light;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+.icons {
+	color: #00B38A;
+}
+
+.header {
+	color: #00B38A}
+.email {
+	color: white;
+	border: none;
+}
+
+.border {
+	border: none;
+}
+
+input[type="email"] {
+	color: #00B38A;
+}
+
+input[type="password"] {
+	color: #00B38A;
+}
+
+input[type="text"] {
+	color: #00B38A;
+}
+
+.ion-label {
+	color: white;
+}
+
+.edit_account {
+	color: #747474;
+}
+
+.signup input[type="password"] {
+	background: #00B38A;
+}
+
+body.platform-ios {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.ionic-body.platform-ios {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+body.platform-android {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.ionic-body.platform-android {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.tab-item,input,button,select,textarea {
+	font-family: inherit;
+}
+
